@@ -1,10 +1,12 @@
-# [프로젝트 이름]
+# [Radix Sort - Python]
 ## 1. 프로젝트 소개
-[이 프로젝트가 무엇인지, 왜 만들었는지 한 문장으로 적으세요.]
+ 자료구조 시간에 배운 raidx sort를 C로 구현하는 과제가 있었는데, 이를 파이선으로도 한번 구현하며 공부해보고 싶었습니다.
 ## 2. 사용된 기술
-* [예: Python, Pandas]
-* [예: HTML, CSS]
-## 3. 실행 방법
-아래 코드를 입력하면 실행됩니다.
+ digit(): 문자열 → 숫자한 총합을 변환 (a=1 ~ z=26)
+ radix_sort(): 연결 리스트 기반 버킷 정렬 수행
+ print_link(): 정렬된 문자열 출력
+## 3. 대표 출력 예시(실행 결과)
+ 테스트 문자열: zero apple dog catalog zebra app bat banana car do 
+ 정렬한 문자열: app apple banana bat car catalog do dog zebra zero
 ```bash
-[여기에 실행 명령어를 적으세요. 예: python main.py]
+python radix_sort.py
